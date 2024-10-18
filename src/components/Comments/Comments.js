@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Comments.module.scss';
 
-const Comments = ({ comments, threadId }) => {
-    const postComments = comments.find(commentGroup => commentGroup.threadId === threadId)?.comments || [];
+const Comments = ({ comments, postId }) => {
+    const postComments = comments.find(commentGroup => commentGroup.postId === postId)?.comments || [];
 
     return (
         <div className={styles.comments}>

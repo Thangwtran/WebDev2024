@@ -1,58 +1,170 @@
 {
   "relatedQuestions": [
     {
-    "id": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-    "questions": [
-      {
-        "id": "40dfd884-22fc-4a2f-b4d3-9c8584deeb76",
-        "upvote": 12,
-        "title": "How/when to become independent in research as a graduate student?"
-      },
-      {
-        "id": "5b0849ae-22e5-450f-90bc-02f0eec7ebf9",
-        "upvote": 52,
-        "title": "Are there universities that consider it academic misconduct for students to publish material created by faculty?"
-      },
-      {
-        "id": "80752edc-5113-4b5c-9432-6d78f53c6919",
-        "upvote": 0,
-        "title": "Is it ethical to include additional material in lecture notes if students buy them?"
-      },
-      {
-        "id": "22c5185d-3fa7-4ad5-9de6-42183dd5506d",
-        "upvote": 22,
-        "title": "Is there an ethical obligation to make author order reflect conventions in your field?"
-      },
-      {
-        "id": "d13d3d44-8125-4d66-b2e7-9e504287464b",
-        "upvote": 13,
-        "title": "Do I need to include citations when writing my own lecture notes, if I make them public?"
-      },
-      {
-        "id": "15fb0498-9e50-41f6-951f-b0b8fb7d7975",
-        "upvote": 50,
-        "title": "Renting a house to a graduate student in my department"
-      },
-      {
-        "id": "1e6b91b6-11ba-43d9-8178-1b161c798fd3",
-        "upvote": 0,
-        "title": "Class Appears to Lack Support - Does the issue lie with me?"
-      },
-      {
-        "id": "f74f7522-82d7-4896-b274-90d521bfc8db",
-        "upvote": 4,
-        "title": "Someone claim to 'independently discovered the same thing (two years after me)'"
-      },
-      {
-        "id": "e4164c30-9c15-45ec-8917-1c9b0e9df144",
-        "upvote": 1,
-        "title": "Is failing to cite similar work in a conference submission considered unethical?"
-      },
-      {
-        "id": "3da2fdbb-8f0a-4af7-96e4-c376907cd429",
-        "upvote": 31,
-        "title": "How to address past academic misconduct as a new faculty member?"
-      }
+      "id": "58b643bd-9260-4f87-89e6-3acb157e10bc",
+      "questions": [
+        {
+          "id": "f7a5d1c9-23b7-4a9a-9071-1234abcd5678",
+          "upvote": 25,
+          "title": "What are the advantages of using useState over useReducer in React?"
+        },
+        {
+          "id": "b7d3f1a2-1234-4b9a-89ab-9876abcd4567",
+          "upvote": 15,
+          "title": "How do you optimize performance in React applications with large state?"
+        },
+        {
+          "id": "d2f8a7b6-91b3-4b1a-b67f-8912abc345d1",
+          "upvote": 30,
+          "title": "What are best practices for managing global state with Redux in React?"
+        },
+        {
+          "id": "a4c6e2b3-5678-4b2a-a89b-c12d3456e789",
+          "upvote": 42,
+          "title": "How do you handle side effects in React with useEffect and cleanup?"
+        },
+        {
+          "id": "e3b7f8c9-89a7-4b1c-9b12-89ab4567cd21",
+          "upvote": 50,
+          "title": "When should I use context API instead of Redux for state management in React?"
+        },
+        {
+          "id": "f4a8d9b7-89b3-4c1b-1234-5678abcd9012",
+          "upvote": 22,
+          "title": "What is the best way to manage asynchronous data fetching in React using hooks?"
+        },
+        {
+          "id": "g5a9f7b6-5678-4d2a-a89c-987654abcd23",
+          "upvote": 38,
+          "title": "How does React's virtual DOM improve rendering performance?"
+        },
+        {
+          "id": "h6b8f1c2-12d3-4a9b-b67a-2345abc456ef",
+          "upvote": 47,
+          "title": "What are common pitfalls when using useState in React, and how do you avoid them?"
+        },
+        {
+          "id": "i7b9c2d3-89ab-4c1d-9a7b-1234567890ab",
+          "upvote": 16,
+          "title": "How can I improve performance by memoizing components in React?"
+        },
+        {
+          "id": "j8d2f3a4-5678-4e1b-89c1-9876543210ab",
+          "upvote": 29,
+          "title": "How can I manage complex forms in React using state and hooks?"
+        }
+      ]
+    },
+
+    {
+      "id": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+      "questions": [
+        {
+          "id": "abc12345-6789-def0-1234-ghijklmn5678",
+          "upvote": 10,
+          "title": "How do you handle file I/O operations asynchronously in Node.js?"
+        },
+        {
+          "id": "def67890-1234-5678-abcd-ef9012345678",
+          "upvote": 32,
+          "title": "What is the difference between callbacks and Promises in Node.js?"
+        },
+        {
+          "id": "ghi90123-4567-89ab-cdef-0123456789ab",
+          "upvote": 22,
+          "title": "Best practices for handling database queries asynchronously in Node.js"
+        },
+        {
+          "id": "jkl45678-90ab-cdef-1234-567890abcdef",
+          "upvote": 48,
+          "title": "How does the event loop work in Node.js for async operations?"
+        },
+        {
+          "id": "mno78901-2345-6789-abcd-ef0123456789",
+          "upvote": 29,
+          "title": "Using async/await for API calls in Node.js: When and how?"
+        },
+        {
+          "id": "pqr01234-5678-90ab-cdef-3456789012ab",
+          "upvote": 14,
+          "title": "Handling errors in asynchronous operations using async/await in Node.js"
+        },
+        {
+          "id": "stu56789-0abc-def1-2345-6789abcdef01",
+          "upvote": 37,
+          "title": "When should I use EventEmitters for async operations in Node.js?"
+        },
+        {
+          "id": "vwx67890-1234-abcd-5678-90abcdef1234",
+          "upvote": 9,
+          "title": "What is the difference between process.nextTick() and setImmediate() in Node.js?"
+        },
+        {
+          "id": "yza90123-4567-abcd-7890-ef1234567890",
+          "upvote": 53,
+          "title": "How does Node.js handle concurrency and async operations with a single-threaded model?"
+        },
+        {
+          "id": "bcd34567-89ab-cdef-1234-56789abcdef0",
+          "upvote": 24,
+          "title": "Best practices for managing multiple async operations simultaneously in Node.js"
+        }
+      ]
+    },
+    
+    {
+      "id": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+      "questions": [
+        {
+          "id": "efg56789-abcd-0123-4567-89abcdef0123",
+          "upvote": 18,
+          "title": "How do you implement lazy loading in Angular to improve performance?"
+        },
+        {
+          "id": "hij89012-3456-abcd-7890-ef123456abcd",
+          "upvote": 41,
+          "title": "What is the best way to handle large forms with state management in Angular?"
+        },
+        {
+          "id": "klm90123-4567-abcd-8901-234567890def",
+          "upvote": 27,
+          "title": "How to share state between sibling components in Angular?"
+        },
+        {
+          "id": "nop23456-7890-abcd-1234-567890abcdef",
+          "upvote": 36,
+          "title": "NgRx vs Akita: Which is better for managing state in Angular applications?"
+        },
+        {
+          "id": "qrs34567-8901-abcd-2345-678901234abc",
+          "upvote": 21,
+          "title": "What are the performance optimizations for large Angular applications?"
+        },
+        {
+          "id": "tuv56789-0123-abcd-4567-8901abcdef34",
+          "upvote": 45,
+          "title": "How to use services for state management in Angular?"
+        },
+        {
+          "id": "wxy67890-1234-abcd-5678-9012abcdef56",
+          "upvote": 16,
+          "title": "How to handle state across multiple modules in Angular?"
+        },
+        {
+          "id": "zab78901-2345-abcd-6789-0123abcdef78",
+          "upvote": 33,
+          "title": "Best practices for optimizing component rendering in Angular"
+        },
+        {
+          "id": "cde89012-3456-abcd-7890-1234567890ab",
+          "upvote": 13,
+          "title": "How to prevent state mutations in Angular using NgRx?"
+        },
+        {
+          "id": "fgh90123-4567-abcd-8901-234567890bcd",
+          "upvote": 50,
+          "title": "What are the trade-offs between using services and NgRx for state management in Angular?"
+        }
       ]
     }
   ]

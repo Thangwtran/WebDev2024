@@ -1,10 +1,10 @@
 import React from "react";
 import styles from './Tag.module.scss';
 
-const Tag = ({name_tag}) => {
+const Tag = ({nameTag}) => {
     return (
         <div className={styles["name-tag"]}>
-            {name_tag}
+            {nameTag}
         </div>
     );
 };
