@@ -3,7 +3,7 @@ import QuestionList from '../components/QuestionList/QuestionList';
 import questionsData from '../_SAMPLE_DATA/questions.json';
 import askersData from '../_SAMPLE_DATA/topAskerList.json';
 import Navbar from '../components/Navbar/Navbar';
-import styles from '../App.module.scss'
+import styles from './HomePage.module.scss'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import SideBar from '../components/SideBar/SideBar';
@@ -19,7 +19,7 @@ const HomePage = () => {
   const [askers, setAskers] = useState([]);
 
   useEffect(() => {
-      const askerArray = Object.values(askersData);
+      const askerArray = Object.values(askersData["askers"]);
       setAskers(askerArray);
   }, []);
   

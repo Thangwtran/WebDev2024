@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .wrapper {
+      margin: 0 auto;
+      width: 960px;
+      flex: 1;
+    }
+    .header {
+      background-color: hsl(210,80%,96%);
+    }
+    .content {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  
+  

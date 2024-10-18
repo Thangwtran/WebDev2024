@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    max-width: 2000px;        
+    margin: 0 auto;           
+    padding: 10px;                      
+    box-sizing: border-box;
+    flex-direction: column;
+
+    .list-line {
+        border: none;            
+        height: 1px;            
+        background-color: #e0e0e0;
+        box-shadow: 0 1px #fff;  
+        margin: 20px 0;         
+        width: 50%;         
+    }
+
+    .tour-list {
+        list-style-type: none;
+    }
+}

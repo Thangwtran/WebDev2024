@@ -1,0 +1,63 @@
+[
+    {
+      "href": "https://stackoverflow.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico",
+      "altText": "Stack Overflow logo",
+      "name": "Stack Overflow"
+    },
+    {
+      "href": "https://math.stackexchange.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/math/Img/favicon.ico",
+      "altText": "Mathematics logo",
+      "name": "Mathematics"
+    },
+    {
+      "href": "https://superuser.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/superuser/Img/favicon.ico",
+      "altText": "Super User logo",
+      "name": "Super User"
+    },
+    {
+      "href": "https://askubuntu.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/askubuntu/Img/favicon.ico",
+      "altText": "Ask Ubuntu logo",
+      "name": "Ask Ubuntu"
+    },
+    {
+      "href": "https://meta.stackexchange.com/",
+      "imgSrc": "https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/favicon.ico",
+      "altText": "Meta Stack Exchange logo",
+      "name": "Meta Stack Exchange"
+    },
+    {
+      "href": "https://serverfault.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/serverfault/Img/favicon.ico",
+      "altText": "Server Fault logo",
+      "name": "Server Fault"
+    },
+    {
+      "href": "https://unix.stackexchange.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/unix/Img/favicon.ico",
+      "altText": "Unix & Linux logo",
+      "name": "Unix & Linux"
+    },
+    {
+      "href": "https://ru.stackoverflow.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/ru/Img/favicon.ico",
+      "altText": "Stack Overflow на русском logo",
+      "name": "Stack Overflow на русском"
+    },
+    {
+      "href": "https://english.stackexchange.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/english/Img/favicon.ico?v=678003fec3e2",
+      "altText": "English Language & Usage logo",
+      "name": "English Language & Usage"
+    },
+    {
+      "href": "https://physics.stackexchange.com/",
+      "imgSrc": "https://cdn.sstatic.net/Sites/physics/Img/favicon.ico?v=678003fec3e2",
+      "altText": "Physics logo",
+      "name": "Physics"
+    }
+  ]
+  

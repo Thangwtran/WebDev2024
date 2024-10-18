@@ -1,0 +1,40 @@
+{
+  "tour": [
+    {
+      "title": "Get answers to practical, detailed questions",
+      "paragraph": "Focus on questions about an <b>actual problem</b> you have faced. Include details about what you have tried and exactly what you are trying to do.",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_askabout.png"
+    },
+    {
+      "title": "",
+      "paragraph": "Not all questions work well in our format. Avoid questions that are <b>primarily opinion-based</b>, or that are likely to <b>generate discussion</b> rather than answers.<br/><br/><i>Questions that need improvement may be <b>closed</b> until someone fixes them.</i>",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_dontask.png"
+    },
+    {
+      "title": "Tags make it easy to find interesting questions",
+      "paragraph": "All questions are <b>tagged</b> with their subject areas. Each can have up to 5 tags, since a question might be related to several subjects. <br/><br/><b>Click any tag</b> to see a list of questions with that tag, or go to the tag list to browse for topics that interest you.",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_tagmake.png"
+    },
+    {
+      "title": "You earn reputation when people vote on your posts",
+      "paragraph": "Your reputation score goes up when others <b>vote up</b> your questions, answers and edits.<br/><br/>As you earn reputation, you'll unlock new privileges like the ability to vote, comment, and even edit other people's posts.",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_reputation.png"
+    },
+    {
+      "title": "Improve posts by editing or commenting",
+      "paragraph": "Our goal is to have the <b>best answers</b> to every question, so if you see questions or answers that can be improved, you can <b>edit</b> them.<br/><br/><i>Use edits to fix mistakes, improve formatting, or clarify the meaning of a post.</i><br/><br/>Use <b>comments</b> to ask for more information or clarify a question or answer.<br/><br/><i>You can always comment on <b>your own</b> questions and answers. Once you earn 50 reputation, you can comment on anybody's post.</i>",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_comment.png"
+    },
+    {
+      "title": "Unlock badges for special achievements",
+      "paragraph": "Badges are special achievements you earn for participating on the site. They come in three levels: bronze, silver, and gold.",
+      "arrow": "tour_asset/orange-arrow.png",
+      "image": "tour_asset/co_unlock.png"
+    }
+  ]
+}

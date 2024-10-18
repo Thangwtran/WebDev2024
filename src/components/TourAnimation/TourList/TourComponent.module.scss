@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    max-width: 2000px;        
+    margin: 0 auto;           
+    padding: 0px;                      
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: hidden;
+    
+    .title {
+        font-size: 28px;
+        color: #222;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+
+        .para-content {
+            flex: 3;
+        }
+
+        .arrow {
+            text-align: center;
+            flex: 1;
+            position: relative;
+            left: 50px;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+
+            &.visible {
+                opacity: 1;
+            }
+        }
+
+        .image {
+            transform: translateX(100%);
+            transition: transform 2s ease-in-out;
+
+            &.visible {
+                transform: translateX(30px);
+            }
+        }
+    }
+}

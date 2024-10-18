@@ -1,8 +1,8 @@
 {
-    "image": "https://cdn.sstatic.net/Sites/chemistry/Img/apple-touch-icon.png",
-    "title": "Chemistry Stack Exchange",
-    "paragraph": "Q&A for scientists, academics, teachers, and students in the field of chemistry",
-    "questions": 46,
-    "answers": 53,
-    "answered": 81
+  "image": "https://cdn.sstatic.net/Sites/chemistry/Img/apple-touch-icon.png",
+  "title": "Chemistry Stack Exchange",
+  "paragraph": "Q&A for scientists, academics, teachers, and students in the field of chemistry",
+  "questions": 46,
+  "answers": 53,
+  "answered": 81
 }

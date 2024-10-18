@@ -1,13 +1,50 @@
 .container {
     width: 725px;
-    margin: 10px 15px 20px 0;
-    float: left;
-    clear: both;
+    margin: 0px 15px 20px 0;
+    display: flex;
+    flex-direction: column;
     .question-tab {
-        text-align: right;
-        font-size: 14px;
-        margin-bottom: 5px;
+        border-bottom: 1px solid #E5E5E5;
+        clear: both;
+        height: 32px;
+        margin-bottom: 0;
+        margin-top: 5px;
+        padding: 0;
+        .tabs {
+            float: right;
+            margin: 3px 0 3px 5px;
+            
+            a {
+                font-size: 12px;
+                color: #666;
+                padding: 0 10px;
+                margin: 3px 3px 3px 0;
+                line-height: 25px;
+                float: left;
+                text-decoration: none;
+                display: block;
+                border-bottom: 2px solid transparent;
+                cursor: pointer;
+            }
+
+            a:hover {
+                color: #4CA3D7;
+                border-bottom: 2px solid #888;
+            }
+
+            .active {
+                border-bottom: 2px solid #F35D5F;
+                font-weight: bold;
+                color: #12457C;
+
+                &:hover {
+                    color: #4CA3D7;
+                    border-bottom: 2px solid #F35D5F;
+                }
+            }
+        }
     }
+
     .list-line {
         border-top: 1px solid #f2f2f2;
         margin: 0;
@@ -23,8 +60,103 @@
         border-bottom: 1px solid #f2f2f2;
     }
     
-    .question-list-item:last-child {
-        border-bottom: none;
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+
+        .pageNumbers, .perPageOptions {
+            display: flex;
+            align-items: center;
+        }
+
+        .pageBtn {
+            color: #808185;
+            display: block;
+            float: left;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 1.1;
+            margin-right: 5px;
+            padding: 6px 9px;
+            background: linear-gradient(to bottom, white, #e7e7e7);
+            border: 1px solid #d2d2d2;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+
+            &:hover {
+                background: #e7e7e7;
+                cursor: pointer;
+            }
+
+            &.active {
+                background: linear-gradient(to bottom, #d54244, #fd6d6f);
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 white;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+
+        .navBtn {
+            color: #808185;
+            display: block;
+            float: left;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 1.1;
+            margin-right: 5px;
+            padding: 6px 9px;
+            background: linear-gradient(to bottom, white, #e7e7e7);
+            border: 1px solid #d2d2d2;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+
+            &:hover {
+                background: #e7e7e7;
+                cursor: pointer;
+            }
+        }
+
+        .perPageOptions {
+            .perPageBtn {
+                color: #808185;
+                display: block;
+                float: left;
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 1.1;
+                margin-right: 5px;
+                padding: 6px 9px;
+                background: linear-gradient(to bottom, white, #e7e7e7);
+                border: 1px solid #d2d2d2;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                &:hover {
+                    color: #4CA3D7;
+                    cursor: pointer;
+                    background: #e7e7e7;
+                }
+                &.active {
+                    background: linear-gradient(to bottom, #d54244, #fd6d6f);
+                    font-weight: bold;
+                    color: #12457C;
+                    &:hover {
+                        color: #4CA3D7;
+                    }
+                }
+            }
+            .perPageText {
+                display: block;
+                float: left;
+                text-decoration: none;
+                font-size: 12px;
+                color: #777;
+                line-height: 1.1;
+                margin-right: 5px;
+                padding: 6px 9px;
+            }
+        }
     }
 }
 

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .wrapper {
+      margin: 0 auto;
+      width: 960px;
+      flex: 1;
+    }
+    .header {
+      background-color: hsl(210,80%,96%);
+    }
+    .content {
+      width: 100%;
+      background-color: #fdfdfd;
+      border-top: 1px solid #fff;
+      min-height: 500px;
+      padding-bottom: 30px;
+    }
+  }
+  
+  
