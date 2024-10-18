@@ -1,19 +1,41 @@
 {
-    "widgets": 
-    [
+    "widgets": [
         {
             "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
             "id": "26c2ede6-9285-487a-9c38-54a4e68c03af",
             "title": "Featured on Meta",
             "widgetContent": [
                 {
-                    "img": "../../chat.png",
                     "text": "Upcoming initiatives on Stack Overflow and across the Stack Exchange network..."
                 },
-                
                 {
-                    "img": "../../chat.png",
-                    "text": "Preventing unauthorized automated access to the network" 
+                    "text": "Preventing unauthorized automated access to the network"
+                }
+            ]
+        },
+        {
+            "questionId": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+            "id": "e928fdae-ef5e-41cf-a0b5-bbcc66a3db48",
+            "title": "Angular Performance",
+            "widgetContent": [
+                {
+                    "text": "Performance considerations in large Angular applications"
+                },
+                {
+                    "text": "Using lazy loading and memoization in Angular for better performance"
+                }
+            ]
+        },
+        {
+            "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+            "id": "c36a50e8-49f6-4734-bef5-76045fc8f57b",
+            "title": "State Management in Angular",
+            "widgetContent": [
+                {
+                    "text": "Using NgRx for managing state in complex Angular applications"
+                },
+                {
+                    "text": "Exploring alternatives to NgRx like Akita for smaller applications"
                 }
             ]
         }

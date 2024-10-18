@@ -1,45 +1,186 @@
 {
-    "comments": [
-      {
-        "threadId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-        "comments": [
-          {
-            "id": "1",
-            "upvote": 19,
-            "text": "A bit of encouragement, then let natural selection take its course.",
-            "author": "A rural reader",
-            "date": "Oct 13 at 20:36"
-          },
-          {
-            "id": "2",
-            "upvote": 36,
-            "text": "I was one of those students. Perhaps my perspective is useful: I had previous knowledge which typically covered ~50% of the material taught in most courses.",
-            "author": "Patrick",
-            "date": "Oct 14 at 8:56"
-          },
-          {
-            "id": "3",
-            "upvote": 33,
-            "text": "University students are old enough to be responsible for themselves. As long as they don't disturb anyone, just let them do whatever they do.",
-            "author": "Green绿色",
-            "date": "Oct 14 at 11:22"
-          },
-          {
-            "id": "4",
-            "upvote": 27,
-            "text": "You have an obligation as the instructor not to let them distract students who are interested in following the lecture.",
-            "author": "Adam Přenosil",
-            "date": "Oct 14 at 12:55"
-          },
-          {
-            "id": "5",
-            "upvote": 8,
-            "text": "I have ADHD. When I am learning something new to me but that doesn’t require my full attention, I actually find it easier to pay attention if I do something else.",
-            "author": "Kevin",
-            "date": "Oct 14 at 17:27"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "comments": [
+    {
+      "postId": "f19f213b-7558-41cd-b826-1567bf01a9cd",
+      "comments": [
+        {
+          "commentId": "a1a2a3b4-c5d6-789e-1234-abcd5678ef90",
+          "upvote": 19,
+          "text": "Using Redux made a huge difference for me in managing global state!",
+          "author": "Jane Doe",
+          "date": "Oct 12 at 14:22"
+        },
+        {
+          "commentId": "b2b3b4c5-d6e7-890f-1234-bcde6789fg01",
+          "upvote": 27,
+          "text": "I personally found MobX simpler to learn and implement than Redux.",
+          "author": "Alex M.",
+          "date": "Oct 12 at 15:00"
+        },
+        {
+          "commentId": "c3c4c5d6-e7f8-901a-2345-cdef7890gh12",
+          "upvote": 34,
+          "text": "Keeping state minimal and local has helped me avoid performance issues.",
+          "author": "Chris P.",
+          "date": "Oct 13 at 10:15"
+        }
+      ]
+    },
+    {
+      "postId": "7e5a1234-9876-4f21-b123-12a34567890b",
+      "comments": [
+        {
+          "commentId": "d4d5d6e7-f8g9-012b-3456-defg8901hi23",
+          "upvote": 25,
+          "text": "Using React Query has streamlined my data-fetching logic tremendously!",
+          "author": "Michael J.",
+          "date": "Oct 13 at 17:40"
+        },
+        {
+          "commentId": "e5e6e7f8-g9h0-123c-4567-efgh9012ij34",
+          "upvote": 18,
+          "text": "I totally agree with using `useState` for simpler state management.",
+          "author": "Sarah L.",
+          "date": "Oct 13 at 19:05"
+        },
+        {
+          "commentId": "f6f7g8h9-h0i1-234d-5678-fghi0123jk45",
+          "upvote": 20,
+          "text": "Keeping the global state small really helps with React app performance.",
+          "author": "John D.",
+          "date": "Oct 13 at 21:50"
+        }
+      ]
+    },
+    {
+      "postId": "8ca6c910-f1cc-4201-a1d6-a2639e751ba1",
+      "comments": [
+        {
+          "commentId": "g7g8h9i0-i1j2-345e-6789-ghij1234kl56",
+          "upvote": 30,
+          "text": "Async/await has made working with Node.js so much more manageable.",
+          "author": "Daniel W.",
+          "date": "Oct 14 at 09:45"
+        },
+        {
+          "commentId": "h8h9i0j1-j2k3-456f-7890-hijk2345lm67",
+          "upvote": 40,
+          "text": "Callbacks are useful, but promises make the code way easier to read.",
+          "author": "Emma T.",
+          "date": "Oct 14 at 11:00"
+        },
+        {
+          "commentId": "i9i0j1k2-k3l4-567g-8901-ijkl3456mn78",
+          "upvote": 35,
+          "text": "For complex async workflows, I highly recommend using `async/await` over callbacks.",
+          "author": "Robert B.",
+          "date": "Oct 14 at 14:30"
+        }
+      ]
+    },
+    {
+      "postId": "5d6a9f12-b8cd-4e2a-a1e9-1234abcd5678",
+      "comments": [
+        {
+          "commentId": "j0j1k2l3-l4m5-678h-9012-jklm4567no89",
+          "upvote": 22,
+          "text": "NgRx is my go-to for managing complex state across Angular components.",
+          "author": "Sophia H.",
+          "date": "Oct 15 at 10:05"
+        },
+        {
+          "commentId": "k1k2l3m4-m5n6-789i-0123-klmn5678op90",
+          "upvote": 28,
+          "text": "For smaller apps, I prefer services over NgRx to manage state.",
+          "author": "Jacob P.",
+          "date": "Oct 15 at 12:15"
+        },
+        {
+          "commentId": "l2l3m4n5-n6o7-890j-1234-lmno6789pq01",
+          "upvote": 35,
+          "text": "Lazy loading and memoization have saved my Angular app from performance issues.",
+          "author": "Natalie S.",
+          "date": "Oct 15 at 14:40"
+        }
+      ]
+    },
+    {
+      "postId": "9e7f21c3-4567-4b23-8a90-123abc456789",
+      "comments": [
+        {
+          "commentId": "m3m4n5o6-o7p8-901k-2345-mnop7890qr12",
+          "upvote": 27,
+          "text": "`async/await` makes the codebase much cleaner and avoids callback hell.",
+          "author": "Mark F.",
+          "date": "Oct 16 at 09:50"
+        },
+        {
+          "commentId": "n4n5o6p7-p8q9-012l-3456-nopq8901rs23",
+          "upvote": 32,
+          "text": "Using promises is still useful, especially for chaining multiple async operations.",
+          "author": "Liam T.",
+          "date": "Oct 16 at 11:10"
+        },
+        {
+          "commentId": "o5o6p7q8-q9r0-123m-4567-opqr9012st34",
+          "upvote": 22,
+          "text": "I prefer async/await for all my API calls. Clean and easy to manage errors.",
+          "author": "Mia K.",
+          "date": "Oct 16 at 13:25"
+        }
+      ]
+    },
+    {
+      "postId": "af12cd34-6789-40bc-b987-12e45678901d",
+      "comments": [
+        {
+          "commentId": "p6p7q8r9-r0s1-234n-5678-pqrs0123tu45",
+          "upvote": 15,
+          "text": "NgRx provides much better structure for managing large state in Angular.",
+          "author": "Oliver R.",
+          "date": "Oct 17 at 08:30"
+        },
+        {
+          "commentId": "q7q8r9s0-s1t2-345o-6789-qrst1234uv56",
+          "upvote": 18,
+          "text": "I’ve heard about Akita, but NgRx still seems more powerful for large apps.",
+          "author": "Isabella M.",
+          "date": "Oct 17 at 09:50"
+        },
+        {
+          "commentId": "r8r9s0t1-t2u3-456p-7890-rstu2345vw67",
+          "upvote": 20,
+          "text": "Immutable state patterns are essential for preventing issues with shared state.",
+          "author": "Ethan D.",
+          "date": "Oct 17 at 11:10"
+        }
+      ]
+    },
+    {
+      "postId": "d4f3g5h6-i7j8-9k0l-m1n2-o3p4q5r6s7t8",
+      "comments": [
+        {
+          "commentId": "s9s0t1u2-u3v4-567q-8901-stuv3456wx78",
+          "upvote": 19,
+          "text": "NgRx was overkill for my small app, so Akita was a better fit.",
+          "author": "Charlotte P.",
+          "date": "Oct 18 at 08:45"
+        },
+        {
+          "commentId": "t0t1u2v3-v4w5-678r-9012-tuvw4567xy89",
+          "upvote": 23,
+          "text": "I found Akita easier to learn, but NgRx gives more control over the state.",
+          "author": "Harper G.",
+          "date": "Oct 18 at 10:00"
+        },
+        {
+          "commentId": "u1u2v3w4-w5x6-789s-0123-uvwx5678yz90",
+          "upvote": 16,
+          "text": "Avoiding side effects in state management has been a challenge for me, but NgRx helps.",
+          "author": "Lucas S.",
+          "date": "Oct 18 at 12:30"
+        }
+      ]
+    }
+  ]
+}

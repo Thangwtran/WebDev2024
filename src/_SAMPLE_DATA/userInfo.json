@@ -2,17 +2,73 @@
   "users": [
     {
       "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-      "id": 1,
-      "time": "edited yesterday",
-      "username": "cag51 ♦",
-      "avatar": "https://img.freepik.com/premium-vector/cartoon-image-cat-with-round-orange-background_851192-7971.jpg?size=338&ext=jpg&ga=GA1.1.1880011253.1728864000&semt=ais_hybrid-rr-similar",
-      "reputation": 71600,
+      "id": "fa1e8914-8f35-42a7-8267-935f92b929ae",
+      "time": "asked 5 days ago",
+      "username": "techguru24",
+      "avatar": "https://img.freepik.com/premium-vector/cartoon-hacker-sitting-laptop-his-hands_150088-125.jpg",
+      "reputation": 45000,
       "badges": {
-        "gold": 26,
-        "silver": 193,
-        "bronze": 265
+        "gold": 18,
+        "silver": 120,
+        "bronze": 200
       },
-      "icon": "" 
+      "icon": ""
+    },
+    {
+      "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
+      "id": "a8d9b056-c25d-47f3-9474-5f9b10e6b63c",
+      "time": "answered 2 days ago",
+      "username": "jsMaster33",
+      "avatar": "https://img.freepik.com/premium-vector/programmer-works-code-coder-developer-flat-design_109722-44.jpg",
+      "reputation": 53000,
+      "badges": {
+        "gold": 22,
+        "silver": 150,
+        "bronze": 180
+      },
+      "icon": ""
+    },
+    {
+      "questionId": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+      "id": "eab22340-62f0-4563-8777-0e3b35f7bcbf",
+      "time": "asked 1 year ago",
+      "username": "nodeWizard101",
+      "avatar": "https://img.freepik.com/premium-vector/cartoon-programmer-code-writer-desk-his-computer-flat-illustration_150088-68.jpg",
+      "reputation": 61000,
+      "badges": {
+        "gold": 30,
+        "silver": 100,
+        "bronze": 220
+      },
+      "icon": ""
+    },
+    {
+      "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+      "id": "c4d8fbea-8e53-4e65-8f75-c154eb5ea219",
+      "time": "answered 6 months ago",
+      "username": "angularExpert007",
+      "avatar": "https://img.freepik.com/premium-vector/web-development-concept-illustration-cartoon-style_116137-62.jpg",
+      "reputation": 72500,
+      "badges": {
+        "gold": 50,
+        "silver": 160,
+        "bronze": 300
+      },
+      "icon": ""
+    },
+    {
+      "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+      "id": "1fc62dd0-493e-4674-8fe9-e474c11a5e08",
+      "time": "answered 4 months ago",
+      "username": "stateGuru99",
+      "avatar": "https://img.freepik.com/premium-vector/developer-programmer-cartoon-vector-illustration-programming-coding_154261-1.jpg",
+      "reputation": 54000,
+      "badges": {
+        "gold": 35,
+        "silver": 180,
+        "bronze": 230
+      },
+      "icon": ""
     }
   ]
 }

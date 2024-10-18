@@ -1,16 +1,39 @@
 {
-  "posts": 
-    [
-      {
-        "id": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-        "title": "Is it ethical to make money off your own lecture notes?",
-        "body": "Lorem ipsum odor amet, consectetuer adipiscing elit. Aliquam ipsum vulputate vel tortor class blandit. Ridiculus bibendum proin in eget ut fermentum ad. Bibendum lobortis habitant vel luctus dapibus. Est aenean eros egestas sed quisque ut dictum consequat. Sociosqu sodales vehicula ac ligula vitae viverra placerat. Magna leo praesent luctus nibh hac mollis suspendisse hac efficitur. Mus ridiculus amet facilisis gravida condimentum scelerisque.\nAenean consectetur maecenas rhoncus placerat feugiat fermentum aliquet. Eget maximus penatibus erat elementum mattis tempus rutrum class. Pharetra in penatibus at pellentesque tristique hac. Etiam a ipsum porttitor tincidunt sagittis praesent ipsum condimentum dictum. Natoque mus viverra feugiat turpis platea tristique tincidunt. Interdum venenatis lacus pretium risus vehicula. Maximus nulla id dolor; condimentum pellentesque magna. Senectus pellentesque egestas cras pharetra tempor?",
-        "button": "Ask Question",
-        "asked": "2 days ago",
-        "modified": "today",
-        "viewed": "6k times"
-      }
+  "posts": [
+    {
+      "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
+      "id": "f19f213b-7558-41cd-b826-1567bf01a9cd",
+      "title": "What are the best practices for managing state in React?",
+      "body": "Managing state in React can be challenging as the complexity of your application grows. What are the best practices for managing local and global state in React applications? Should I rely on the built-in useState and useReducer hooks, or is it better to use a state management library like Redux or MobX? Additionally, how can I ensure that my application remains performant as the state grows more complex?",
+      "button": "Ask Question",
+      "tags": ["react", "state-management", "best-practices"],
+      "asked": "5 days ago",
+      "modified": "3 days ago",
+      "viewed": "4k times"
+    },
 
+    {
+      "questionId": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+      "id": "8ca6c910-f1cc-4201-a1d6-a2639e751ba1",
+      "title": "How do you handle asynchronous operations in Node.js?",
+      "body": "When working with Node.js, handling asynchronous operations can sometimes get tricky, especially when dealing with multiple asynchronous functions that rely on each other's results. What are the best practices for managing asynchronous code in Node.js? Should I prefer using callbacks, promises, or async/await? Additionally, how can I handle errors effectively across asynchronous functions without cluttering the code? Any examples or guidance on managing complex async workflows would be appreciated.",
+      "button": "Ask Question",
+      "tags": ["node.js", "async", "promises"],
+      "asked": "1 year ago",
+      "modified": "2 days ago",
+      "viewed": "8k times"
+    },
 
-    ]
+    {
+      "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
+      "id": "5d6a9f12-b8cd-4e2a-a1e9-1234abcd5678",
+      "title": "How do you manage state across components in Angular?",
+      "body": "When developing complex applications with Angular, managing state between components becomes crucial. What are the best practices for sharing state between parent and child components, as well as across unrelated components? Should I use Angular services, NgRx, or any other state management libraries? Additionally, what are the potential pitfalls and performance considerations when handling large amounts of shared state in Angular applications? Any examples or advice would be appreciated.",
+      "button": "Ask Question",
+      "tags": ["angular", "state-management", "ngrx"],
+      "asked": "6 months ago",
+      "modified": "1 day ago",
+      "viewed": "12k times"
+    }
+  ]
 }

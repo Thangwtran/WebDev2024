@@ -1,57 +1,67 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+
 import ThreadPost from '../components/ThreadPost/ThreadPost';
-import threadPostData from '../_SAMPLE_DATA/threadPost.json';
 import PostHeader from '../components/PostHeader/postHeader';
 import styles from './PostContent.module.scss';
 import LeftSideBar from '../components/LeftSideBar/LeftSideBar';  
 import SideBarWidget from '../components/SideBarWidget/SideBarWidget'; 
 import Comments from '../components/Comments/Comments';
 import Related from '../components/Related/Related';  
+import Navbar from '../components/Navbar/Navbar';
+
 import relatedQuestionsData from '../_SAMPLE_DATA/relatedQuestions.json';
 import sideBarWidgetData from '../_SAMPLE_DATA/widget.json';
 import leftSideBarData from '../_SAMPLE_DATA/leftSideBar.json';
 import postHeaderData from '../_SAMPLE_DATA/postHeader.json';
 import commentsData from '../_SAMPLE_DATA/comments.json';
-import { useParams } from 'react-router-dom';
-import Navbar from '../components/Navbar/Navbar';
-import tagData from '../_SAMPLE_DATA/tagName.json';
+import threadPostData from '../_SAMPLE_DATA/threadPost.json';
 
 const PostContent = ({ threadId }) => {
     const { id } = useParams();
 
     if (!id) {
-        return (
-            <h1>Sorry! Page was not found!</h1>
-        );
+        return <h1>Sorry! Page was not found!</h1>;
     };
 
-    const relatedQuestionDetails = relatedQuestionsData.relatedQuestions.find((question) => question.id === id);
-    const widgetDetails = sideBarWidgetData.widgets.find((widget) => widget.questionId === id);
+    const relatedQuestionDetails = relatedQuestionsData.relatedQuestions.find(
+        (question) => question.id === id
+    );
+
+    const widgetDetails = sideBarWidgetData.widgets.find(
+        (widget) => widget.questionId === id
+    );
 
     const lsbContent = leftSideBarData.sidebarContent[0];
 
     const widgetContent = widgetDetails ? {
         title: widgetDetails.title,
         widgetContent: widgetDetails.widgetContent.map((wc) => ({
-           img: wc.img,
-           text: wc.text 
+            text: wc.text
         }))
-    } : {};
+    } : null;
 
     const relatedQuestions = relatedQuestionDetails ? {
         questions: relatedQuestionDetails.questions.map((question) => ({
             upvote: question.upvote,
             title: question.title
         }))
-    } : {};
+    } : null;
 
-    const { post } = threadPostData;
+    const posts = threadPostData.posts.filter((post) => post.questionId === id);
+
+    if (posts.length === 0) {
+        <h1>No thread for this question!</h1>
+    }
+
+    const showedPost = new Set();
 
     return (
         <div className={styles.postContent}>
-            <Navbar className={styles.navbar}/>
-            <PostHeader className={styles.postHeader}
-                imageUrl={postHeaderData.postHeader.imageUrl} 
+            <Navbar className={styles.navbar} />
+            <PostHeader
+                className={styles.postHeader}
+                imageUrl={postHeaderData.postHeader.imageUrl}
                 altText={postHeaderData.postHeader.altText}
                 addAltText={postHeaderData.postHeader.addAltText}
             />
@@ -63,31 +73,40 @@ const PostContent = ({ threadId }) => {
 
                 <div className={styles.mainContent}>
                     <div className={styles.content}>
-                        {threadPostData.posts.map((post, index) => (
-                            <div key={post.id} className={styles.body}>
+                        {posts.map((post, index) => {
 
-                            {index === 0 ? (
-                                <ThreadPost
-                                    asked={post.asked}
-                                    modified={post.modified}
-                                    viewed={post.viewed}
-                                    title={post.title}
-                                    body={post.body}
-                                    tags={tagData.tags}
-                                />
-                            ) : (
-                                <ThreadPost
-                                    body={post.body}
-                                />
-                            )} 
+                            if (showedPost.has(post.questionId)) {
+                                return null;
+                            }
 
-                                <Comments comments={commentsData.comments} threadId={post.id} />
-                            </div>
-                        ))}
+                            showedPost.add(post.questionId);
+
+                            return (
+
+                                <div key={post.id} className={styles.body}>
+                                   
+                                    {index === 0 ? (
+                                        <ThreadPost
+                                            asked={post.asked}
+                                            modified={post.modified}
+                                            viewed={post.viewed}
+                                            title={post.title}
+                                            body={post.body}
+                                            tags={post.tags}
+                                        />
+                                    ) : (
+                                        <ThreadPost body={post.body} />
+                                    )}
+
+                                    <Comments comments={commentsData.comments} postId={post.id} />
+
+                                </div>
+                            );
+                        })}
                     </div>
 
                     <div className={styles.rightSidebar}>
-                        <SideBarWidget widget={widgetContent} />
+                        {widgetContent && <SideBarWidget widget={widgetContent} />}
                         {relatedQuestions && <Related relatedQuestions={relatedQuestions} />}
                     </div>
                 </div>

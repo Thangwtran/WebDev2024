@@ -4,7 +4,10 @@ import goldIcon from '../../assets/gold.png';
 import silverIcon from '../../assets/silver.png';
 import bronzeIcon from '../../assets/bronze.png';
 
-const UserInfo = ({ time, avatar, username, icon, reputation, badges }) => {
+const UserInfo = ({ time, avatar, username, icon, reputation, badges = {} }) => {
+
+    const { gold = 0, silver = 0, bronze = 0 } = badges;
+
     return (
         <div className={styles.userInfo}>
 
@@ -21,19 +24,19 @@ const UserInfo = ({ time, avatar, username, icon, reputation, badges }) => {
                     <div className={styles.repuScore}>
                         <p>{reputation}</p>
                         <div className={styles.badges}>
-                            {badges.gold > 0 && (
+                            {gold > 0 && (
                                 <span className={styles.badge}>
                                     <img src={goldIcon} alt="gold badge" />
                                     <p>{badges.gold}</p>
                                 </span>
                             )}
-                            {badges.silver > 0 && (
+                            {silver > 0 && (
                                 <span className={styles.badge}>
                                     <img src={silverIcon} alt="silver badge" />
                                     <p>{badges.silver}</p>
                                 </span>
                             )}
-                            {badges.bronze > 0 && (
+                            {bronze > 0 && (
                                 <span className={styles.badge}>
                                     <img src={bronzeIcon} alt="bronze badge" />
                                     <p>{badges.bronze}</p>
