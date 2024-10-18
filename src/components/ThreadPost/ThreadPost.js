@@ -52,15 +52,9 @@ const ThreadPost = () => {
 
                                 {asked && modified && viewed && (
                                     <div className={styles.time}>
-                                        <p>
-                                            Asked <span>{asked}</span>
-                                        </p>
-                                        <p>
-                                            Modified <span>{modified}</span>
-                                        </p>
-                                        <p>
-                                            Viewed <span>{viewed}</span>
-                                        </p>
+                                        <p>Asked <span>{asked}</span></p>
+                                        <p>Modified <span>{modified}</span></p>
+                                        <p>Viewed <span>{viewed}</span></p>
                                     </div>
                                 )}
                             </>
@@ -72,21 +66,24 @@ const ThreadPost = () => {
                             <div className={styles.content}>
                                 <p>{body}</p>
 
-                    { tagData.tags && (
-                        <div className={styles.startingLine}>
-                            <div className={styles.tag}>
-                                {tagData.tags && tagData.tags.map((tag, index) => (
-                                    <Tag key={index} nameTag={tag}/> 
-                                ))}
+                                {tags && (
+                                    <div className={styles.startingLine}>
+                                        <div className={styles.tag}>
+                                            {tags.map((tag, index) => (
+                                                <Tag key={index} nameTag={tag} />
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+
+                                <div className={styles['tags-user']}>
+                                    {userInfo && <UserInfo {...user} />}
+                                </div>
                             </div>
-                        </div> 
-                    )}
-                
-                    <div className={styles["tags-user"]}>
-                        {userInfo && <UserInfo {...user} />} 
+                        </div>
                     </div>
-                </div>
-            </div>
+                );
+            })}
         </div>
     );
 };
