@@ -13,12 +13,6 @@
     },
 
     {
-      "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-      "id": "7e5a1234-9876-4f21-b123-12a34567890b",
-      "body": "When managing state in React, I recommend starting with the built-in hooks like useState for simple local state and useReducer for more complex state logic. For larger applications, it's worth considering Redux or MobX for better global state management. In addition, using tools like React Query can simplify data-fetching state. Make sure to keep state as minimal as possible and only store what is necessary in the global state to avoid performance bottlenecks."
-    },
-
-    {
       "questionId": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
       "id": "8ca6c910-f1cc-4201-a1d6-a2639e751ba1",
       "title": "How do you handle asynchronous operations in Node.js?",
@@ -40,30 +34,6 @@
       "asked": "6 months ago",
       "modified": "1 day ago",
       "viewed": "12k times"
-    },
-
-    {
-      "questionId": "58b643bd-9260-4f87-89e6-3acb157e10bc",
-      "id": "7e5a1234-9876-4f21-b123-12a34567890b",
-      "body": "In my experience, it is essential to approach students with care when they are not engaged in class. I typically try to involve them in discussions or ask for their input on topics being covered. However, it's important to understand that some students may be dealing with personal challenges or different learning styles. Building a rapport with students can often help, as can providing alternate ways for them to engage with the material outside of the traditional lecture format."
-    },
-
-    {
-      "questionId": "a2b1c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
-      "id": "9e7f21c3-4567-4b23-8a90-123abc456789",
-      "body": "For handling asynchronous operations in Node.js, I highly recommend using `async/await` over callbacks. It simplifies code readability and avoids callback hell. However, promises are also a good alternative, especially when chaining multiple asynchronous functions. For error handling, try using `try/catch` blocks in conjunction with `async/await`, or use `.catch()` for promises. These methods offer more maintainable and clean error management compared to traditional callbacks."
-    },
-
-    {
-      "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
-      "id": "af12cd34-6789-40bc-b987-12e45678901d",
-      "body": "Managing state across Angular components can be done using services with dependency injection, which provides a clean and scalable way to share data. However, for more complex applications, I recommend using NgRx or other state management libraries. These libraries handle state in a more structured and maintainable way. Additionally, it’s crucial to ensure that performance optimizations like memoization and lazy loading are implemented, as managing large amounts of state can cause performance bottlenecks."
-    },
-
-    {
-      "questionId": "b3c4d5e6-f7g8-h9i0-j1k2-l3m4n5o6p7q8",
-      "id": "d4f3g5h6-i7j8-9k0l-m1n2-o3p4q5r6s7t8",
-      "body": "In addition to using NgRx for state management in Angular, you might also want to look into Akita, which is another state management library that is simpler to integrate and offers a more straightforward API. It is particularly useful for smaller applications where you don't need the full power of NgRx. When dealing with complex shared state, ensure that you use immutable state patterns to avoid unintended side effects, which can lead to difficult-to-debug issues."
     }
   ]
 }

@@ -82,7 +82,9 @@ const PostContent = ({ threadId }) => {
                             showedPost.add(post.questionId);
 
                             return (
+
                                 <div key={post.id} className={styles.body}>
+                                   
                                     {index === 0 ? (
                                         <ThreadPost
                                             asked={post.asked}
@@ -97,6 +99,7 @@ const PostContent = ({ threadId }) => {
                                     )}
 
                                     <Comments comments={commentsData.comments} postId={post.id} />
+
                                 </div>
                             );
                         })}
