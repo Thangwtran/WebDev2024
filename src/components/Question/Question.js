@@ -3,8 +3,8 @@ import styles from './Question.module.scss';
 import Tag from '../Tag/Tag';
 import { formatDistanceToNowStrict, differenceInDays } from 'date-fns';
 
-const Question = ({ image, title, link, tags, answer, created_time, author, field}) => {
-    const createdDate = new Date(created_time);
+const Question = ({ image, title, link, tags, answer, createdTime, author, field}) => {
+    const createdDate = new Date(createdTime);
     
     const formatTimeAgo = (date) => {
         const daysDiff = differenceInDays(new Date(), date);
@@ -24,7 +24,7 @@ const Question = ({ image, title, link, tags, answer, created_time, author, fiel
                 <div className={styles["question-details"]}>
                     <div className={styles["tags"]}>
                         {tags.map((tag, index) => (
-                            <Tag key={index} name_tag={tag} />
+                            <Tag key={index} nameTag={tag} />
                         ))}
                     </div>
                     <div className={styles["details"]}>

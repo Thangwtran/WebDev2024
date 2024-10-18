@@ -72,24 +72,21 @@ const ThreadPost = () => {
                             <div className={styles.content}>
                                 <p>{body}</p>
 
-                                {index === 0 && tags && (
-                                    <div className={styles.startingLine}>
-                                        <div className={styles.tag}>
-                                            {tags.map((tag, tagIndex) => (
-                                                <Tag key={tagIndex} nameTag={tag} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-
-                                <div className={styles['tags-user']}>
-                                    <UserInfo {...user} />
-                                </div>
+                    { tagData.tags && (
+                        <div className={styles.startingLine}>
+                            <div className={styles.tag}>
+                                {tagData.tags && tagData.tags.map((tag, index) => (
+                                    <Tag key={index} nameTag={tag}/> 
+                                ))}
                             </div>
-                        </div>
+                        </div> 
+                    )}
+                
+                    <div className={styles["tags-user"]}>
+                        {userInfo && <UserInfo {...user} />} 
                     </div>
-                );
-            })}
+                </div>
+            </div>
         </div>
     );
 };

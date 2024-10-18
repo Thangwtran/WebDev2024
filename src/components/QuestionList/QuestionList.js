@@ -11,7 +11,7 @@ const QuestionList = ({ questions }) => {
         if (sortBy === 'hot') {
             return b.answer - a.answer;
         } else {
-            return new Date(b.created_time) - new Date(a.created_time);
+            return new Date(b.createdTime) - new Date(a.createdTime);
         }
     });
 
@@ -55,7 +55,7 @@ const QuestionList = ({ questions }) => {
                             title={question.title}
                             tags={question.tags}
                             answer={question.answer}
-                            created_time={question.created_time}
+                            createdTime={question.created_time}
                             author={question.author}
                             field={question.field}
                             link={`/questions/${question.id}`}

@@ -42,12 +42,11 @@ const Tour = () => {
       </div>
       <div className={styles["content"]}>
         <div className={styles["wrapper"]}>
-          {/*Intro*/}
-            <TourIntro intro={intro} />
+          <TourIntro intro={intro} />
           <AskQuestion />
           <TourComponentList tours={tours} />
           <NewUser />
-            <TourOutro outro={outro} />
+          <TourOutro outro={outro} />
         </div>
       </div>
 

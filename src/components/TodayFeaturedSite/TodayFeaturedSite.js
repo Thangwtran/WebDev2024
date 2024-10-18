@@ -9,12 +9,12 @@ const TodayFeaturedSite = ({image, title, paragraph, questions, answers, answere
             </div>
             <div className={styles['container-without-heading']}>
                 <div className={styles['icon-image']}>
-                    <a href='https://chemistry.stackexchange.com/'>
+                    <a href='#'>
                         <img src={image} alt={title}/>
                     </a>
                 </div>
                 <div className={styles['right-panel']}>
-                    <a href='https://chemistry.stackexchange.com/'>{title}</a>
+                    <a href='#'>{title}</a>
                     <br/>
                     {paragraph}
                 </div>     

@@ -33,9 +33,7 @@ const TourComponent = ({ title, paragraph, arrow, image }) => {
 
             <div className={styles["content-container"]}>
                 <div className={styles["para-content"]}>
-                    <div className={styles["paragraph"]}>
-                        <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
-                    </div>
+                    <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 </div>
                 
                 <div className={`${styles["arrow"]} ${isVisible ? styles["visible"] : ""}`}>

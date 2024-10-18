@@ -1,63 +1,51 @@
 [
     {
-      "href": "https://stackoverflow.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico",
-      "altText": "Stack Overflow logo",
-      "name": "Stack Overflow"
+      "href": "#",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_rp2YcGgpfdKXeVMLWgwkcwDOxBiESwfPA&s",
+      "altText": "USTH logo",
+      "name": "University of Science and Technology of Hanoi"
     },
     {
-      "href": "https://math.stackexchange.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/math/Img/favicon.ico",
-      "altText": "Mathematics logo",
-      "name": "Mathematics"
+      "href": "#",
+      "imgSrc": "https://avatars.githubusercontent.com/u/168672?s=200&v=4",
+      "altText": "USTH Moodle logo",
+      "name": "USTH Moodle"
     },
     {
-      "href": "https://superuser.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/superuser/Img/favicon.ico",
-      "altText": "Super User logo",
-      "name": "Super User"
+      "href": "#",
+      "imgSrc": "https://bochickenstore.com/storage/large/ban-tai-khoan-notion_1684661021.png",
+      "altText": "USTH Notion logo",
+      "name": "USTH Notion"
     },
     {
-      "href": "https://askubuntu.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/askubuntu/Img/favicon.ico",
-      "altText": "Ask Ubuntu logo",
-      "name": "Ask Ubuntu"
+      "href": "#",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_FhdmmKQjT11IOe9280YkzkqEGqhGOGqZw&s",
+      "altText": "UCC logo",
+      "name": "USTH Coders Club"
     },
     {
-      "href": "https://meta.stackexchange.com/",
-      "imgSrc": "https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/favicon.ico",
-      "altText": "Meta Stack Exchange logo",
-      "name": "Meta Stack Exchange"
+      "href": "#",
+      "imgSrc": "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/334607850_152421090997546_4681514454009464240_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeENjsuqk9lBCUu49MoScb_BzhW0ny4HGyvOFbSfLgcbK55cK7E0TdHSdbMKg7NnD-A2L1JZJJmkkRAarRI0AD8M&_nc_ohc=x5UTj2ggtXEQ7kNvgGQqay4&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=An3h7V52f70wChNt5UcuPcj&oh=00_AYDOMxcNK6kHgIVr9MuRKhe1QLm7EAwUbLKcQsUR9RkqCQ&oe=6718369C",
+      "altText": "USTH SA logo",
+      "name": "USTH Student Association"
     },
     {
-      "href": "https://serverfault.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/serverfault/Img/favicon.ico",
-      "altText": "Server Fault logo",
-      "name": "Server Fault"
+      "href": "#",
+      "imgSrc": "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/240096292_111309087965749_8257888588047304080_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE_7eSQpFBMx_SKsbwv0cF-iTMRfA4CJ7mJMxF8DgInucXtYYAUf1rlyyZ52i6LsDmnoAWJ10q31-rtCdUSd4uR&_nc_ohc=PBsc927Hvz0Q7kNvgGeXfDM&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=ACeJyx1e3jHAtnpbflqvAZ_&oh=00_AYDLtZtZE0_r1bLkFI_wfgzvoOMW-kJgOjHEpZsaVxGpbg&oe=671831EE",
+      "altText": "USTH LS logo",
+      "name": "USTH Learning Support"
     },
     {
-      "href": "https://unix.stackexchange.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/unix/Img/favicon.ico",
-      "altText": "Unix & Linux logo",
-      "name": "Unix & Linux"
+      "href": "#",
+      "imgSrc": "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/279881084_415156757282276_280820102871639288_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG_Ot0_xQm-oztPG9cAxBcpGdWUU3CexMsZ1ZRTcJ7Ey7fG8KHXdfeN95I-X7TQ2C8_Ah5uULmWsgyc6swoM5IH&_nc_ohc=RkdG45W1A7oQ7kNvgHeEywx&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=A2PPtvXnVEYr3EV9vlNLEfU&oh=00_AYD8Rv1eWriWeyByv2S2fKyY5A0U15rdayVjI-sTTO0reQ&oe=67182E00",
+      "altText": "USTH Confessions logo",
+      "name": "USTH Confessions"
     },
     {
-      "href": "https://ru.stackoverflow.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/ru/Img/favicon.ico",
-      "altText": "Stack Overflow на русском logo",
-      "name": "Stack Overflow на русском"
-    },
-    {
-      "href": "https://english.stackexchange.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/english/Img/favicon.ico?v=678003fec3e2",
-      "altText": "English Language & Usage logo",
-      "name": "English Language & Usage"
-    },
-    {
-      "href": "https://physics.stackexchange.com/",
-      "imgSrc": "https://cdn.sstatic.net/Sites/physics/Img/favicon.ico?v=678003fec3e2",
-      "altText": "Physics logo",
-      "name": "Physics"
+      "href": "#",
+      "imgSrc": "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-1/360082175_259459093473299_7704311167890960883_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeFw_UzEybwDxnrPC-Efp_2iuGK6oI1DVMi4YrqgjUNUyMrXENQ9acH9ODdSFp7rLod7A751S3b8d_xtyfGEaQ_X&_nc_ohc=zwOGh8iAFacQ7kNvgGaSBqw&_nc_zt=24&_nc_ht=scontent.fhan7-1.fna&_nc_gid=Aok84f-KfFH8N6zbbJ4rYs4&oh=00_AYCbb3mfz74NkiAS42BvWYWndU_q44ZRC_iNRnclDEWd_Q&oe=67184AF6",
+      "altText": "USTH Youth Association logo",
+      "name": "USTH Youth Association"
     }
   ]
   

@@ -1,8 +1,7 @@
 .container {
     display: flex;
     justify-content: center;  
-    align-items: center;      
-    max-width: 2000px;        
+    align-items: center;              
     margin: 0 auto;           
     padding: 0px;                      
     box-sizing: border-box;
@@ -26,6 +25,9 @@
 
         .para-content {
             flex: 3;
+            p {
+                font-size: 14px;
+            }
         }
 
         .arrow {

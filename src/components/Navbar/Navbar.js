@@ -28,8 +28,8 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles["navbar-logo"]}>
-                <img id="colored_logo" src='/colored_logo.png' alt="colored_logo"></img>
-                <a href="/" className={styles["logo-text"]}>Stack<span> Exchange</span></a>
+                <img id="colored_logo" src='/USTH-colored-logo.png' alt="colored_logo"></img>
+                <a href="/" className={styles["logo-text"]}>USTH<span> Exchange</span></a>
             </div>
 
             <ul className={styles["nav-links"]}>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
 
             <div className={styles["navbar-logo"]}>
-                <img id="logo" src="/logo.png" alt="logo"></img>
+                <img id="logo" src="/USTH-logo.png" alt="logo"></img>
                 <img className={styles["search-mobile"]} id="search-icon" onClick={showSearchBar} src='/search_icon.png'></img>
                 <LoginButton/>
                 <div className={styles["toggle-search-bar"]} style={ {display: isSearchVisible ? "flex" : "none"} }>
